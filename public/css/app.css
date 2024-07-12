@@ -1,0 +1,49 @@
+body {
+    background-color: #d0d0d0;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.card {
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.carousel-caption {
+    position: static;
+    text-align: center;
+    padding: 10px;
+    color: black;
+}
+
+.carousel-item img.custom-carousel-img {
+    max-height: 300px; /* Ajustez la hauteur maximale selon vos besoins */
+    object-fit: contain; /* Maintient l'échelle de l'image sans la couper */
+    width: auto; /* Maintient la largeur automatique */
+    margin: auto; /* Centre l'image horizontalement */
+}
+
+.custom-carousel-img {
+    max-height: 300px;
+    object-fit: contain;
+    width: auto;
+    margin: auto;
+}
+
+.welcome-text {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.welcome-text h1 {
+    font-size: 2.5rem;
+}
+
+.welcome-text p {
+    font-size: 1.25rem;
+}
