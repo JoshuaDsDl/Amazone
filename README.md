@@ -37,3 +37,6 @@ Vue administrateur pour marquer une commande comme traîtée ou en attente.
 
 ### Gestion des produits
 Vue administrateur pour ajouter, modifier ou supprimer des produits.
+
+## Base de données
+L'export de la base de données se trouve à la racine et est nommé `ecommerce.sql`.
